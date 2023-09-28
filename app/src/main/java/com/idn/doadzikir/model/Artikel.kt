@@ -1,8 +1,4 @@
-package com.idn.doadzikir
-
-
-import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
+package com.idn.doadzikir.model
 
 data class Artikel(
     val imageArtikel: Int,

@@ -1,4 +1,4 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.model
 
 object DataDzikirDoa {
     private val descQauliyah = arrayOf(

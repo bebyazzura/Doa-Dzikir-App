@@ -10,28 +10,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DoaDzikir"
+        android:theme="@style/Theme.DoaDanDzikrApp"
         tools:targetApi="31">
         <activity
-            android:name=".DzikirPetangActivity"
+            android:name=".ui.detail.DzikirPetangActivity"
             android:exported="true" />
         <activity
-            android:name=".DzikirPagiActivity"
+            android:name=".ui.detail.DzikirPagiActivity"
             android:exported="true" />
         <activity
-            android:name=".DetailArtikelActivity"
+            android:name=".ui.detail.DetailArtikelActivity"
             android:exported="true" />
         <activity
-            android:name=".PagiPetangDzikirActivity"
+            android:name=".ui.PagiPetangDzikirActivity"
             android:exported="true" />
         <activity
-            android:name=".HarianDzikirDoaActivity"
+            android:name=".ui.HarianDzikirDoaActivity"
             android:exported="true" />
         <activity
-            android:name=".SetiapSaatDzikirActivity"
+            android:name=".ui.SetiapSaatDzikirActivity"
             android:exported="true" />
         <activity
-            android:name=".QauliyahShalatActivity"
+            android:name=".ui.QauliyahShalatActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

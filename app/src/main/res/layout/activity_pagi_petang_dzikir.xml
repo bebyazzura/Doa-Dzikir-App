@@ -6,17 +6,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/white">
+    android:background="#444444">
 
     <TextView
         android:id="@+id/tv_dzikir_pagi_petang"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="181dp"
         android:background="@drawable/bg_menu"
         android:gravity="bottom"
         android:padding="16dp"
         android:text="@string/txt_dzikir_pagi_petang"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/blue"
             android:padding="8dp"
             android:text="@string/txt_dzikir_pagi"
             android:textColor="@color/white"
@@ -82,7 +81,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/blue"
             android:padding="8dp"
             android:text="@string/txt_dzikir_petang"
             android:textColor="@color/white"

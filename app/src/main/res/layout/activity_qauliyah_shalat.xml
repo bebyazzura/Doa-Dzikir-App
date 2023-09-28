@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="16dp"
-    android:background="@color/white">
+    android:background="#444444">
 
     <TextView
         android:id="@+id/tv_txt_qauliyah"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="181dp"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="16dp"
         android:background="@drawable/bg_menu"
@@ -18,7 +18,7 @@
         android:paddingEnd="16dp"
         android:paddingBottom="16dp"
         android:text="@string/txt_sunnah_qauliyah"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold" />
 

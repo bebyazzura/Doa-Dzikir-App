@@ -1,4 +1,4 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -6,6 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.idn.doadzikir.model.Artikel
+import com.idn.doadzikir.ui.detail.DetailArtikelActivity
+import com.idn.doadzikir.R
 
 class ArtikelAdapter(private val listArtikel: ArrayList<Artikel>) :
     RecyclerView.Adapter<ArtikelAdapter.MyViewHolder>() {

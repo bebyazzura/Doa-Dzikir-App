@@ -1,9 +1,12 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.idn.doadzikir.R
+import com.idn.doadzikir.adapter.DzikirDoaAdapter
+import com.idn.doadzikir.model.DzikirDoa
 
 class HarianDzikirDoaActivity : AppCompatActivity() {
 
@@ -16,7 +19,7 @@ class HarianDzikirDoaActivity : AppCompatActivity() {
 
         initData()
 
-        val rvDzikirDoaHarian = findViewById<RecyclerView>(R.id.rv_dzikir_doa_harian)
+        val rvDzikirDoaHarian: RecyclerView = findViewById(R.id.rv_dzikir_doa_harian)
         rvDzikirDoaHarian.layoutManager = LinearLayoutManager(this)
         rvDzikirDoaHarian.adapter = DzikirDoaAdapter(listDzikir)
     }

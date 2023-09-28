@@ -1,10 +1,13 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.cardview.widget.CardView
+import com.idn.doadzikir.R
+import com.idn.doadzikir.ui.detail.DzikirPagiActivity
+import com.idn.doadzikir.ui.detail.DzikirPetangActivity
 
 class PagiPetangDzikirActivity : AppCompatActivity() {
 

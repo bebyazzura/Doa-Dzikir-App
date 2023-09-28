@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".DetailArtikelActivity"
-    android:background="@color/white">
+    tools:context=".ui.detail.DetailArtikelActivity"
+    android:background="#444444">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_img_detail"
@@ -37,7 +37,7 @@
         android:fontFamily="sans-serif-black"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/sv_content"
@@ -58,7 +58,7 @@
             android:fontFamily="sans-serif-black"
             android:paddingHorizontal="16dp"
             android:paddingVertical="8dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/white"
             android:textSize="17sp" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

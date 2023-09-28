@@ -1,10 +1,12 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.idn.doadzikir.model.DzikirDoa
+import com.idn.doadzikir.R
 
 class DzikirDoaAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) :
     RecyclerView.Adapter<DzikirDoaAdapter.MyViewHolder>() {

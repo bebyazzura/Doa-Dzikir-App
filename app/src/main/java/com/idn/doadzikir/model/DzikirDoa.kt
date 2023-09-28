@@ -1,4 +1,4 @@
-package com.idn.doadzikir
+package com.idn.doadzikir.model
 
 data class DzikirDoa(
     var desc: String,

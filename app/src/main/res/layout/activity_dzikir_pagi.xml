@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".DzikirPagiActivity"
-    android:background="@color/white">
+    tools:context=".ui.detail.DzikirPagiActivity"
+    android:background="#444444">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_dzikir_pagi"

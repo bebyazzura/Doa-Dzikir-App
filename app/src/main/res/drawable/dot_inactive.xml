@@ -8,6 +8,6 @@
         android:height="12dp"
         android:width="12dp" />
 
-    <solid android:color="@color/white" />
+    <solid android:color="#848383" />
 
 </shape>

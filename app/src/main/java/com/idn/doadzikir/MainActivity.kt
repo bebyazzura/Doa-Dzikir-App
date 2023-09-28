@@ -9,6 +9,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.viewpager2.widget.ViewPager2
+import com.idn.doadzikir.adapter.ArtikelAdapter
+import com.idn.doadzikir.model.Artikel
+import com.idn.doadzikir.ui.HarianDzikirDoaActivity
+import com.idn.doadzikir.ui.PagiPetangDzikirActivity
+import com.idn.doadzikir.ui.QauliyahShalatActivity
+import com.idn.doadzikir.ui.SetiapSaatDzikirActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -98,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, QauliyahShalatActivity::class.java))
         }
 
-        val llDzikirSetiapSaat = findViewById<LinearLayout>(R.id.ll_dzikir_setiap_saat)
+        val llDzikirSetiapSaat: LinearLayout = findViewById(R.id.ll_dzikir_setiap_saat)
         llDzikirSetiapSaat.setOnClickListener {
             startActivity(Intent(this, SetiapSaatDzikirActivity::class.java))
         }
